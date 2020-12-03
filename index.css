@@ -141,6 +141,7 @@ table {
 
 * {
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 html {
@@ -150,4 +151,164 @@ html {
 nav {
     width: 100%;
     overflow: auto;
+    display: block;
+    /* width: 100%; */
+    margin-top: 2.8%;
+    margin-bottom: 2%;
+    /* margin-right: .5%; */
+    /* margin-left: 0%; */
+    /* padding-top: 10px; */
+    text-align: center;
+}
+
+
+/* general styles */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Roboto Mono';
+    font-size: 1.8rem;
+    color: #4f4f4f;
+}
+
+section {
+    padding: 4% 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 3px;
+}
+
+
+/* a {
+    text-decoration: none;
+    color: #4f4f4f;
+} */
+
+
+/* nav style */
+
+nav a {
+    margin-right: 14%;
+    margin-left: -2.2%;
+    border-radius: 2.5rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    width: 13vw;
+    height: 10vh;
+    /* font-family: sans-serif; */
+    /* color: white; */
+    /* font-size: 14px; */
+    padding-top: .5%;
+}
+
+.link1 {
+    margin-left: 13%;
+}
+
+.link2 {
+    /* margin-left: 5%; */
+    /* margin-right: 2%; */
+}
+
+
+/* header */
+
+.headerdiv {
+    display: inline-block;
+    margin: auto 1.2% 2% 4%;
+    height: 52vh;
+}
+
+.headerimg img {
+    width: 100%;
+    display: inline-block;
+    width: 21vw;
+    height: 42vh;
+    border-radius: 60%;
+    margin: 4% 5% 5% 4%;
+}
+
+.banner-text {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -40%;
+    margin-left: 33%;
+}
+
+.banner-text h1 {
+    /* width: 100%; */
+    display: inline-block;
+    font-size: 8rem;
+    font-family: 'Chelsea Market', cursive;
+    margin-left: -15.5%;
+    margin-top: -2%;
+}
+
+.banner-text p {
+    width: 100%;
+    display: inline-block;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-left: -11%;
+}
+
+.bp1 {
+    margin-top: 4%;
+    margin-bottom: 3.5%;
+}
+
+.bp2 {
+    margin-top: -1%;
+}
+
+#about {
+    /* width: 90%; */
+}
+
+.about-text {
+    background-color: #ddb9a3;
+    color: white;
+    height: 26vh;
+    font-size: 2.8rem;
+    text-align: center;
+    margin: -4.5% 3% 0 4%;
+    padding-left: 2.1%;
+}
+
+.about p {
+    padding: .4%;
+}
+
+
+/* bulletin */
+
+.bulletin1 img {
+    width: 50%;
+}
+
+.bulletin1 {
+    margin: -6.7% 39%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.bulletin1 p span {
+    font-weight: bolder;
 }
